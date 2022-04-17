@@ -1,0 +1,605 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@478&family=Open+Sans&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Epilogue', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+  background-color: none;
+}
+.navbar{
+    font-family:'Epilogue', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: black;
+    margin-bottom: 0;
+    position: fixed;
+    padding-right: 50px;
+    position: fixed;
+}
+.navbar-brand{
+    margin-left: 40px;
+}
+.navbar-nav li{
+    margin: 0 30px;
+}
+
+.infobox{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/postheaders/index2Jpg.jpg');
+    background-position: top;
+    background-size: cover;
+    text-align: center;
+    line-height: 30px;
+    background-image: cover;
+    padding-bottom: 20px;
+    display: block;
+    padding-top: 15%;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+   
+}
+
+.infobox-text{
+    padding-top: 100px;
+    color: black;
+    font-size: 40px;
+    
+}
+.infobox .btn{
+    margin-top: 20px;
+    border: 1px solid grey;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+}
+.infobox .joinus-btn{
+    border: none;
+    background: #376E67;
+    color: white;
+}
+.infobox .joinus-btn:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+.infobox .hire-btn{
+    background: #e1e1e1e1;
+    color: black;
+}
+.infobox .hire-btn:hover{
+    background: #e1e1e1e1;
+    transform: 1s;
+}
+/**Working Section**/
+.work-companies{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0;
+    cursor: pointer;
+
+}
+.work-companies h1{
+        font-size: 36px;
+        font-weight: 600;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    flex-direction: row;
+}
+.work-col{
+    max-width:90%;
+    flex-basis:45%;
+    margin: 0 20px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #EEEEEE;
+}
+.work-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    transform: 0.5px;
+}
+    .work-col img{
+        width: 100%;
+        padding-top: 3%;
+        height: 60%;
+    }
+    .work-col h3{
+        text-align: center;
+        font-weight: 700;
+        margin-top: 20px;
+        font-size: 19px;
+    }
+    .work-col a{
+        text-decoration: none;
+        color: black;
+    }
+
+.grid1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:50vh;
+    margin-top: 40px;
+    background-color: white;
+    align-items: center;
+    padding: 20px;
+    background-color: #b3adad84;
+    position: relative;
+}
+.g-col-6{
+  padding: 20px 5px;
+    width: 500px;
+    height: 250px;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 30px;
+    display: block;
+    background-color: none;
+    text-align: center;
+    opacity: 0.8;
+    background-color: #e1e1e1e1;
+    font-size: larger;
+    color: #203239;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.g-col-6 a{
+  text-decoration: none;
+  color: #203239;
+}
+.service-boxes{
+    background-color: #203239;
+    min-width: 100%;
+    min-height: 30vh;
+    position: relative;
+    color: white;
+  }
+  .service-title{
+    color: var(--milk);
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    padding-top: 1%;
+
+  }
+  .lists{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 40px;
+  }
+  .lists li{
+    list-style-type : none;
+    font-size: 18px;
+    color: var(--milk);
+  }
+  
+  /*Clients think section*/
+
+
+/*******************************************Services*****************************************/
+  .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e1e1e1e1;
+    padding-top: 50px;
+  }
+  .img-fluid{
+    width: 320px;
+    min-height: 220px;
+  }
+  .content-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+   margin: 20px 50px;
+  }
+.col:hover h3{
+    opacity: 1;
+    transform: scale(1);
+}
+.offers{
+  margin: 40px 20px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.offer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-shrink: 2;
+  padding: 80px 50px;
+}
+.offer-text h1{
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  
+}
+.offer-text{
+  margin-right: 40px;
+  max-width: 40%;
+}
+.offer-slider{
+  max-width: 50%;
+  width: 100%;
+}
+
+
+
+/*******************************************Footer******************************************************/
+.container-footer{
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+.container-footer li{
+  font-size: 17px;
+  font-weight: 400;
+} 
+/****************************************About US*************************************************/
+.container-aboutus{
+  width: 100%;
+  height: 70vh;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.container-aboutus-title{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 70;
+}
+.container-aboutus-title span{
+  color: #376E67;
+  font-size: 50px;
+}
+.container-aboutus-title h1{
+  font-size: 40px;
+  line-height: 60px;
+  
+}
+.container-aboutus-text{
+  padding: 0 30px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  letter-spacing: 3px;
+  
+}
+.mission h1{
+  font-size: 60px;
+  color: #203239;
+}
+.mission span{
+  font-size: 60px;
+}
+.wrapper-aboutus{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .wrapper-aboutus img{
+    width: 420px;
+    height: 80vh;
+  }
+  .about-text{
+    width: 550px;
+  }
+  .about-text h1{
+    color: black;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+  }
+  .about-text h5{
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+  .about-text span{
+    color: #376E67;
+  }
+  .about-text p{
+    letter-spacing: 1px;
+    color: #203239;
+    line-height: 28px;
+  }
+  .main{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e1e1e1e1;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2), 0px -10px 5px rgba(0, 0, 0, 0.2);
+  }
+  .talk-btn{
+    margin-top: 30px;
+    border: 1px solid white;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    background: #376E67;
+    color: white;
+    border: 2px #376E67 solid;
+  }
+  .talk-btn:hover{
+    transition: 5ms;
+    background-color: #e1e1e1e1;
+    color: #376E67;
+    border: 2px #376E67 solid;
+  }
+  .slogan-aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #e1e1e1e1;
+    height: 60vh;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2), 0px -8px 15px rgba(0, 0, 0, 0.2);
+  }
+  .slogan-aboutus h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 400;
+
+  }
+  .slogan-aboutus span{
+    color: #376E67;
+  }
+  /***************************************************************************************************************/
+  .container-services2{
+    font-size: larger;
+    color: #203239;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 80px 0;
+    background-color: none;
+  }
+  .container-services2 h1{
+    letter-spacing: 4px;
+    font-weight: 380;
+    font-size: 50px;
+
+  }
+  .services2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .services-col{
+    flex: 3;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+  .services-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: black;
+  }
+  .services2  h1{
+    color: white;
+  }
+  .services-col a{
+    text-decoration: none;
+  }
+  .services-col{
+    overflow: hidden;
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 2%;
+  }
+  .services-col img {
+    width: 100%;
+    height: auto;
+  }
+  .layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    transition: 0.3s;
+    text-align: center;
+    
+  }
+  .layer:hover {
+    backdrop-filter: blur(5px);
+    transition: 0.5ms;
+  }
+  .layer h3{
+    width:100%;
+    font-weight: 600;
+    letter-spacing: 3px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    color: black;
+    
+  }
+  .layer:hover h3{
+    bottom: 40%;
+    opacity: 1;
+    background:rgba(192,192,192, 0);
+  }
+  
+.services-steps {
+  width: 100%;
+  height: 50vh;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0;
+  background-color: #557a95;
+  color: whitesmoke;
+}
+.step{
+  text-align: center;
+  padding: 40px;
+  cursor: pointer;
+  
+}
+.step-text{
+  margin-top: 30px;
+
+}
+.step:hover{
+  color: #203239;
+
+}
+/***************************************Contact Us*******************************************************************/
+.squeaky {
+  height: 70vh;
+  background-image: url(../images/contact/img5.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.95);
+  font-family:'Epilogue', sans-serif;
+  display: inline-block;
+  text-align: center;
+  padding-top: 25vh;
+  align-items: center;
+  letter-spacing: 3px;
+}
+.divtext h1{
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  text-shadow: 1px 1px #098fb1;
+}
+.divtext h2{
+  font-weight: 300;
+  color: #dfdfdf;
+}
+.divnumber img {
+margin:5px 5px;
+padding-bottom: 3px;
+
+}
+.divnumber a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
+}
+.divnumber a:hover {
+  color: rgba(255, 255, 255, 0.85);
+}
+.divnumber p{
+  max-width: 600px;
+  margin: 0 15%;
+  border-radius: 13px;
+  color: rgba(255, 255, 255, 0.85);
+  background-color: #098fb1;
+  font-size: 40px;
+  min-width: 350px;
+  font-weight: 520;
+  padding-top: 5px;
+}
+
+.allcontact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e1e1e1e1;
+}
+.mapouter{
+  margin-top: 70px;
+}
+
+.alltext{
+  letter-spacing: 3px;
+  font-size: larger;
+}
+.filldiv {
+  letter-spacing: 3px;
+  font-size: larger;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  padding: 50px 0;
+  color: rgb(17, 17, 17);
+}
+.filldiv p{
+  margin-left: 20px;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #dfdfdf; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  resize: vertical; 
+}
+input[type=tel], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #dfdfdf; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  resize: vertical 
+}
+input[type=submit] {
+  background-color: #098fb1;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #02576d;
+}
+
+
+.container-contactus {
+  width: 70%;
+  border-radius: 5px;
+  background-color: #dfdfdf;
+  padding: 20px;
+}

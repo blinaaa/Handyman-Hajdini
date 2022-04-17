@@ -1,0 +1,27 @@
+.main{
+    width: 100%;
+    height: fit-content;
+}
+.section-service{
+    height: 60vh;
+    width: 100%;
+    background-color: #557a95;
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url('/images/services/pressure-washing/img4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-image: 50%;
+}
+.section-service{
+    width: 100%;
+}
+.service-text h1{
+    font-size: 70px;
+
+    letter-spacing: 10px;
+    text-shadow: 1px 1px black;
+
+}

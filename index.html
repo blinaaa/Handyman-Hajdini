@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://kit.fontawesome.com/c54500097c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<style>
+  .modal {
+   display: none;
+   position: fixed;
+   z-index: 1;
+   padding-top: 100px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgb(0, 0, 0);
+   background-color: rgba(0, 0, 0, 0.9);
+}
+.modalImage {
+   margin: auto;
+   display: block;
+   width: 50%;
+   height: 60%;
+   max-width: 700px;
+}
+#caption {
+   margin: auto;
+   display: block;
+   width: 80%;
+   max-width: 700px;
+   text-align: center;
+   color: #ccc;
+   padding: 10px 0;
+   height: 150px;
+}
+.close {
+   position: absolute;
+   top: 15px;
+   right: 35px;
+   color: #f1f1f1;
+   font-size: 40px;
+   font-weight: bold;
+   transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+   color: #376E67;
+   cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+   .modalImage {
+      width: 100%;
+   }
+}
+</style>
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="images/logo-H.H.png" alt="" width="70px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">AboutUs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">ContactUs</a>
+                  </li>
+                </ul>
+              </div>
+
+          </nav>
+    </header>
+    <section class="infobox">
+            <div class="infobox-text">
+                <h1>Work with the best if you want to be the best!</h1>
+            </div>
+            <div class="infobox-button">
+            <a href="contactus.html"><button class="btn joinus-btn">Contact us now</button></a>
+            <a href="services.html"><button class="btn hire-btn">Our services</button></a>
+            </div>
+
+    </section>
+    <!--After and Before Section-->
+    <section class="work-companies">
+        <h1>Before and After</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, tempore.</p>
+        <div class="work">
+            <div class="work-col">
+                <img class="ImgThumbnail" src="images/before&after/BA-1.jpg" alt="Pressure ">
+                <a href="#">
+                    <h3>RUSS VIVANT SOLAR ROOF CLEAN GUTTER CLEAN</h3>
+                </a>
+                <div class="modal">
+                  <span class="close">×</span>
+                  <img class="modalImage" id="img01" />
+                </div>
+            </div>
+            <div class="work-col">
+                <img class="ImgThumbnail" src="images/before&after/BA-2.jpg" alt="">
+                <a href="#">
+                    <h3>RUSS VIVANT SOLAR ROOF CLEAN GUTTER CLEAN </h3>
+                </a>
+                <div class="modal">
+                  <span class="close">×</span>
+                  <img class="modalImage" id="img01" />
+                </div>
+            </div>
+            <div class="work-col">
+                <img class="ImgThumbnail"  src="images/before&after/BA-3.jfif" alt="">
+                <a href="#">
+                    <h3>RUSS VIVANT SOLAR ROOF CLEAN GUTTER CLEAN 
+                    </h3>
+                </a>
+                <div class="modal">
+                  <span class="close">×</span>
+                  <img class="modalImage" id="img01" />
+                </div>
+            </div>
+        </div>
+        <div class="work">
+            <div class="work-col">
+                <img class="ImgThumbnail" src="images/before&after/BA-1.jpg" alt="">
+                <a href="#">
+                    <h3>RUSS VIVANT SOLAR ROOF CLEAN GUTTER CLEAN</h3>
+                </a>
+                <div class="modal">
+                  <span class="close">×</span>
+                  <img class="modalImage" id="img01" />
+                </div>
+            </div>
+            <div class="work-col">
+                <img class="ImgThumbnail" src="images/before&after/BA-2.jpg" alt="">
+                <a href="#">
+                    <h3>RUSS VIVANT SOLAR ROOF CLEAN GUTTER CLEAN </h3>
+                </a>
+                <div class="modal">
+                  <span class="close">×</span>
+                  <img class="modalImage" id="img01" />
+                </div>
+            </div>
+            <div class="work-col">
+                <img class="ImgThumbnail" src="images/before&after/BA-3.jfif" alt="">
+                <a href="#">
+                    <h3>RUSS VIVANT SOLAR ROOF CLEAN GUTTER CLEAN 
+                    </h3>
+                </a>
+                <div class="modal">
+                  <span class="close">×</span>
+                  <img class="modalImage" id="img01" />
+                </div>
+            </div>
+        </div>
+        <div class="work">
+            <div class="work-col">
+                <img class="ImgThumbnail" src="images/before&after/BA-1.jpg" alt="">
+                <a href="#">
+                    <h3>RUSS VIVANT SOLAR ROOF CLEAN GUTTER CLEAN</h3>
+                </a>
+                <div class="modal">
+                  <span class="close">×</span>
+                  <img class="modalImage" id="img01" />
+                </div>
+            </div>
+            <div class="work-col">
+                <img class="ImgThumbnail" src="images/before&after/BA-2.jpg" alt="">
+                <a href="#">
+                    <h3>RUSS VIVANT SOLAR ROOF CLEAN GUTTER CLEAN </h3>
+                </a>
+                <div class="modal">
+                  <span class="close">×</span>
+                  <img class="modalImage" id="img01" />
+                </div>
+            </div>
+            <div class="work-col">
+                <img class="ImgThumbnail" src="images/before&after/BA-3.jfif" alt="">
+                <a href="#">
+                    <h3>RUSS VIVANT SOLAR ROOF CLEAN GUTTER CLEAN 
+                    </h3>
+                </a>
+                <div class="modal">
+                  <span class="close">×</span>
+                  <img class="modalImage" id="img01" />
+                </div>
+            </div>
+        </div>
+    </section>     
+    <!--Services Info Box-->
+    <section class="service-boxes">
+        <div class="service-title">
+        <h2>Listed below are the services we offer</h2>
+        </div>
+        <div class="lists">
+        <ul class="service-list">
+            <li><i class="fas fa-check"></i> Pressure Washing</li>
+            <li><i class="fas fa-check"></i> Deck Refinishing</li>
+            <li><i class="fas fa-check"></i> Exterior Painting & Staining</li>
+            <li><i class="fas fa-check"></i> Property Maintenance Services</li>
+
+        </ul>
+        <ul class="service-list">
+            <li><i class="fas fa-check"></i> Interior House Painting</li>
+            <li><i class="fas fa-check"></i> Patio Washing & Sealing</li>
+            <li><i class="fas fa-check"></i> Soft Wash Roof Cleaning</li>
+            <li><i class="fas fa-check"></i> Commercial Cleaning Services</li>
+        </ul>
+        <ul class="service-list">
+            <li><i class="fas fa-check"></i> Gutter Cleaning & Repair</li>
+            <li><i class="fas fa-check"></i> Holiday Lighting Services</li>
+            <li><i class="fas fa-check"></i> Window Cleaning</li>
+            <li><i class="fas fa-check"></i> Shrink Wrapping Services</li>
+        </ul>
+    </div>
+    </section>
+    <section class="offers">
+        <div class="offer">
+          <div class="offer-text">
+            <h1>Soft Wash</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas velit ex alias omnis, perferendis iste. Aperiam itaque repellat perferendis aut voluptatem hic rerum enim, voluptatum temporibus! Harum minima iusto saepe neque aspernatur expedita 
+                quibusdam praesentium vel repudiandae. Adipisci consequuntur laborum magnam ex necessitatibus vel?</p>
+          </div>
+          <div class="offer-slider">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/services/pressure-washing/img1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/services/pressure-washing/img3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/services/pressure-washing/img4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="offer offer2">
+            <div class="offer-slider">
+                <div id="carouselExampleIndicators1" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/services/house-painting/img1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/services/house-painting/img2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/services/house-painting/img3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="offer-text">
+              <h1>Interior Painting </h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas velit ex alias omnis, perferendis iste. Aperiam itaque repellat perferendis aut voluptatem hic rerum enim, voluptatum temporibus! Harum minima iusto saepe neque aspernatur expedita 
+                  quibusdam praesentium vel repudiandae. Adipisci consequuntur laborum magnam ex necessitatibus vel?</p>
+            </div>
+          </div>
+          <div class="offer">
+            <div class="offer-text">
+              <h1>Window Cleaning</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas velit ex alias omnis, perferendis iste. Aperiam itaque repellat perferendis aut voluptatem hic rerum enim, voluptatum temporibus! Harum minima iusto saepe neque aspernatur expedita 
+                  quibusdam praesentium vel repudiandae. Adipisci consequuntur laborum magnam ex necessitatibus vel?</p>
+            </div>
+            <div class="offer-slider">
+              <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/services/window-clwaning/img1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/services/window-clwaning/img2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/services/window-clwaning/img3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="offer offer2">
+              <div class="offer-slider">
+                  <div id="carouselExampleIndicators3" class="carousel slide " data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/services/roof-cleaning/img1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/services/roof-cleaning/img2.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/services/roof-cleaning/img3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="offer-text">
+                <h1>Soft Wash Roof Cleaning</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas velit ex alias omnis, perferendis iste. Aperiam itaque repellat perferendis aut voluptatem hic rerum enim, voluptatum temporibus! Harum minima iusto saepe neque aspernatur expedita 
+                    quibusdam praesentium vel repudiandae. Adipisci consequuntur laborum magnam ex necessitatibus vel?</p>
+              </div>
+            </div>
+      </section>
+
+    <!--What our users think section-->
+    <section class="section-opinion-users">
+      <div class="carousel-users">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index-users.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/index-users.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/index-users.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+    </section>
+    
+      <!--What Maked Us Special-->
+      <div class="grid grid1">
+        <div class="g-col-6 g-col-md-4">
+            <h1><i class="fas fa-dollar-sign fa-2x"></i></h1>
+            <a href="#">
+                <h3>Affordable prices</h3>
+            </a>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="g-col-6 g-col-md-4">
+            <h1><i class="fas fa-thumbs-up fa-2x"></i></h1>
+            <a href="#">
+                <h3>Pleased costumers</h3>
+            </a>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></div>
+        <div class="g-col-6 g-col-md-4">
+            <h1><i class="fab fa-searchengin  fa-2x"></i></h1>
+            <a href="#">
+                <h3>Everything you need</h3>
+            </a>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></div>
+      </div>
+    
+<!--Footer-->
+      <div class="container container-footer">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="aboutus.html" class="nav-link px-2 text-muted">About Us</a></li>
+            <li class="nav-item"><a href="services.html" class="nav-link px-2 text-muted">Services</a></li>
+            <li class="nav-item"><a href="contactus.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+          </ul>
+          <ul class="nav justify-content-center  pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fa-brands fa-instagram  fa-2x"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fa-brands fa-whatsapp fa-2x"></i></a></li>
+          </ul>
+          
+        </footer>
+      </div>
+
+</body>
+</html>
+<script src="script.js"></script>
